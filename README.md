@@ -121,6 +121,18 @@ change_string(s.dup)
 puts s #=> "Original string content!"
 ```
 
-* Freezing s before passing it into the above method would result in a RuntimeError ("can't modify frozen string")
+* Freezing s before passing it into the above method would result in a RuntimeError ("can't modify frozen string"). There is no unfreeze method!
+
+* Clone vs dup: if you clone a frozen object, the clone is also frozen.
+
+* Freezing an array works, but (for example) a frozen array of strings could still be changed by using the String replace method on any individual string
+
+* How Ruby decides what to do when it encounters a plain identifier: if it looks like a keyword, it's a keyword (e.g. `if`), if there's an equal sign, it's a local variable undergoing an assignment, otherwise, it's a method call.
+
+* Summary: How to create a new object and define methods for it / The basics of the message-sending mechanism by which you send requests to objects for information or action / Several of the important built-in methods that every Ruby object comes with: `object_id`, `respond_to?`, `send` / Details of the syntax for method argument lists, including the use of required, optional, and default-valued arguments / How local variables and variable assignment work / Ruby's use of references to objects and how references play out when multiple variables refer to the same object
+
+Chapter 3 - Organizing objects with classes (pp. 62 - 91)
+
+* Creating multiple objects with classes / Setting and reading object state / Automating creation of attribute read and write methods / Class inheritance mechanics / Syntax and semantics of Ruby constants
 
 * 
