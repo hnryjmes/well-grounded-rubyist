@@ -67,4 +67,16 @@ Chapter 1 - Bootstrapping your Ruby literacy
 
 * check syntax and warnings together: `-cw`
 
+* irb `--noecho` to not report return result
+
+* using `ri` to request information
+
+* rake: ruby-style make
+
+* gem install and gem uninstall
+
+* Summary: The difference between Ruby (the language) and `ruby` (the Ruby interpreter) / The typography of Ruby variables / Basic Ruby operators and built-in constructs / Writing, storing, and running a Ruby program file / Keyboard input and screen output / Manipulating Ruby libraries with require and load / The anatomy of the Ruby installation / The command-line tools shipped with Ruby
+
+Chapter 2 - Objects, methods, and local variables
+
 * 
