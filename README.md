@@ -47,4 +47,6 @@ Chapter 1 - Bootstrapping your Ruby literacy
 
 * reading and writing from file
 
+* the Ruby installation
+
 * 
