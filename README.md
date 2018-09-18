@@ -40,3 +40,7 @@ Chapter 1 - Bootstrapping your Ruby literacy
 * "The most important concept in Ruby is the concept of the object. Closely related, and playing an important supporting role, is the concept of the class."
 
 * objects can adopt behaviours that their class didn't give them
+
+* print vs puts
+
+* interactive programs (keyboard input)
