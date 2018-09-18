@@ -3,7 +3,7 @@
 
 #### Notes by Henry
 
-Chapter 1 - Bootstrapping your Ruby literacy
+Chapter 1 - Bootstrapping your Ruby literacy (pp. 3 - 33)
 
 * A Ruby syntax survival kit / A basic Ruby programming how-to: writing, saving, running, and error-checking programs / A tour of the Ruby installation / The mechanics of Ruby extensions / Ruby's out-of-the-box command-line tools, including the interactive Ruby interpreter (irb)
 
@@ -77,7 +77,7 @@ Chapter 1 - Bootstrapping your Ruby literacy
 
 * Summary: The difference between Ruby (the language) and `ruby` (the Ruby interpreter) / The typography of Ruby variables / Basic Ruby operators and built-in constructs / Writing, storing, and running a Ruby program file / Keyboard input and screen output / Manipulating Ruby libraries with require and load / The anatomy of the Ruby installation / The command-line tools shipped with Ruby
 
-Chapter 2 - Objects, methods, and local variables
+Chapter 2 - Objects, methods, and local variables (pp. 34 - 60)
 
 * Objects and object orientation / Innate versus learned object capabilities / Method parameter, argument, and calling syntax / Local variable assignment and usage / Object references
 
