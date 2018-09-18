@@ -49,4 +49,10 @@ Chapter 1 - Bootstrapping your Ruby literacy
 
 * the Ruby installation
 
+* Ruby standard library, C extensions, site ruby and vendor ruby, gems
+
+* using extensions and libraries with `require` and `load`
+
+* "If you tell people you've written a Ruby extensions, they'll probably assume you mean that it's in C."
+
 * 
