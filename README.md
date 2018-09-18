@@ -44,3 +44,7 @@ Chapter 1 - Bootstrapping your Ruby literacy
 * print vs puts
 
 * interactive programs (keyboard input)
+
+* reading and writing from file
+
+* 
