@@ -80,3 +80,7 @@ Chapter 1 - Bootstrapping your Ruby literacy
 Chapter 2 - Objects, methods, and local variables
 
 * Objects and object orientation / Innate versus learned object capabilities / Method parameter, argument, and calling syntax / Local variable assignment and usage / Object references
+
+* "Designing object-oriented software is largely a matter of figuring out what you want your objects to be: what they should do, how they'll interact with each other, how many of each there should be (for example, many students, one registrar), and other such questions."
+
+* 
