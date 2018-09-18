@@ -79,4 +79,4 @@ Chapter 1 - Bootstrapping your Ruby literacy
 
 Chapter 2 - Objects, methods, and local variables
 
-* 
+* Objects and object orientation / Innate versus learned object capabilities / Method parameter, argument, and calling syntax / Local variable assignment and usage / Object references
