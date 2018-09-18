@@ -87,4 +87,20 @@ Chapter 2 - Objects, methods, and local variables
 
 * the `return` keyword, making returns explicit
 
+* using string interpolation
+
+* generic object and basic object
+
+* `send` and `__send__`, choosing a safe method call
+
+* required and optional arguments, default values for arguments
+
+* using the * in arguments
+
+* invalid args
+
+```def broken_args(x, *y, z=1)
+end
+```
+
 * 
