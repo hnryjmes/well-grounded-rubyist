@@ -9,4 +9,34 @@ Chapter 1 - Bootstrapping your Ruby literacy
 
 * "This book will give you a foundation in Ruby, and this chapter will give your foundation a foundation."
 
-* 
+* irb and irb simple
+
+* basic operations: arithmetic, assignment, comparison, conversion
+
+* basic i/o and control flow: print, get, conditionals
+
+* special objects
+
+* "...the Ruby convention is to use underscores rather than camel case when composing local variable names from multiple words - for example, first_name rather than firstName."
+
+* instance variables start with a single (@) sign, e.g. `@age` and `@last_name`
+
+* class variables start with two at signs, e.g. `@@running_total`
+
+* global variables start with a $ sign, e.g. `$population`
+
+* constants begin with an uppercase letter.
+
+* method names are like local variables except they can end in ?, !, or =.
+
+* in ruby everything is an object*. every object responds to messages. (* mostly)
+
+* why double terminology? (e.g. 'calling the method' and 'sending the message') - because sometimes you might send a message intending to call a method but the object might not respond to it!
+
+* sometimes a method call lacks an explicit receiver: e.g. `puts "Hello."`
+
+* we're sending the message `puts` to an object: the default object `self`
+
+* "The most important concept in Ruby is the concept of the object. Closely related, and playing an important supporting role, is the concept of the class."
+
+* objects can adopt behaviours that their class didn't give them
