@@ -104,4 +104,23 @@ def broken_args(x, *y, z=1)
 end
 ```
 
-*
+* "If you do this, it's a syntax error, because there's no way it could be correct. Once you've given x its argument and sponged up all the remaining arguments in the array y, nothing can ever be left for z."
+
+* reference available for valid combinations of required, optional, default-valued arguments
+
+* scoping and assignment
+
+* Duping and freezing objects
+
+```
+def change_string(str)
+  str.replace("New string content!")
+end
+s = "Original string content!"
+change_string(s.dup)
+puts s #=> "Original string content!"
+```
+
+* Freezing s before passing it into the above method would result in a RuntimeError ("can't modify frozen string")
+
+* 
