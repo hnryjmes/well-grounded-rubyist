@@ -99,8 +99,9 @@ Chapter 2 - Objects, methods, and local variables
 
 * invalid args
 
-```def broken_args(x, *y, z=1)
+```
+def broken_args(x, *y, z=1)
 end
 ```
 
-* 
+*
