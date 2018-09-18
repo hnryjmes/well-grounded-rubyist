@@ -83,4 +83,8 @@ Chapter 2 - Objects, methods, and local variables
 
 * "Designing object-oriented software is largely a matter of figuring out what you want your objects to be: what they should do, how they'll interact with each other, how many of each there should be (for example, many students, one registrar), and other such questions."
 
+* creating objects, defining methods
+
+* the `return` keyword, making returns explicit
+
 * 
