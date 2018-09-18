@@ -55,4 +55,16 @@ Chapter 1 - Bootstrapping your Ruby literacy
 
 * "If you tell people you've written a Ruby extensions, they'll probably assume you mean that it's in C."
 
+* using require to access standard lib features
+
+* using `require_relative`
+
+* "...is convenient when you want to navigate a local directory hierarchy"
+
+* out-of-the-box tools: ruby, irb, rdoc and ri, rake, gem, erb, testrb
+
+* commonly used ruby command-line switches: -c (checks syntax), -w (warning messages), -e (executes code inline), -l (print newline after), -rname (require named feature), -v (show ruby version and verbose mode), --version (show version), -h (show all command-line switches) etc...
+
+* check syntax and warnings together: `-cw`
+
 * 
