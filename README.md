@@ -135,4 +135,16 @@ Chapter 3 - Organizing objects with classes (pp. 62 - 91)
 
 * Creating multiple objects with classes / Setting and reading object state / Automating creation of attribute read and write methods / Class inheritance mechanics / Syntax and semantics of Ruby constants
 
+* instance methods, singleton methods
+
+* defining the same method twice
+
+* "When you override a method, the new version takes precedence."
+
+* how to avoid hard-coding values into every object?
+
+* "Information and data associated with a particular object embodies the state of the object."
+
+* Instance variables!
+
 * 
