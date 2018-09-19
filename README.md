@@ -174,4 +174,10 @@ ticket.price = 63.00
 
 Chapter 4 - Modules and program organization (pp. 92 - 117)
 
+* Encapsulation of behavior in modules / Modular extension of classes / The object method-lookup path / Handling method-lookup failure / Establishing namespaces with modules and nesting
+
+* "Like classes, modules are bundles of methods and constants."
+
+* modules and mix-ins
+
 * 
