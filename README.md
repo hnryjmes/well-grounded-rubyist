@@ -145,6 +145,27 @@ Chapter 3 - Organizing objects with classes (pp. 62 - 91)
 
 * "Information and data associated with a particular object embodies the state of the object."
 
-* Instance variables!
+* Instance variables! Setter methods!
 
-* 
+* "When you need to set or change an object's state at some point in your program other than the initialize method, the heart of the matter is assigning (or reassigning) values to instance variables. You can, of course, change any instance variable's value in any method. [...] But the most common case is the simplest: calling a setter method with an argument and setting the appropriate instance variable to the argument."
+
+* by not putting everything in the initialize method, you make your code easier to read
+
+* method names with equal signs in them: giving you the feeling that you're assigning something while still using a setter method
+
+* Ruby's syntactic sugar for setter methods... these are equivalent:
+
+```
+ticket.price=(63.00)
+ticket.price = 63.00
+```
+
+* the attr method family helps to avoid repetition when you write Ruby classes
+
+* `attr_accessor` is read and write together
+
+* inheritance, modules, the single inheritance principle
+
+* choosing to send a message to the class rather than the instance
+
+* constants
