@@ -218,4 +218,16 @@ Chapter 5 - The default object (self), scope, and visibility (pp. 119 - 151)
 
 * The role of the current or default object, self / Scoping rules for local, global, and class variables / Constant lookup and visibility / Method-access rules
 
+* "At every point when your program is running, there's one and only one self."
+
+* this might be main, the class, the module, individual objects etc.
+
+* "To know which object is self, you need to know what context you're in."
+
+* you can't refer to main by 'main', you would have to grab it using the self keyword
+
+* "Being self at a given point in the program comes with some privileges. The chief privilege enjoyed by self is that of serving as the default receiver of messages..."
+
+* If you don't specify which object to send a message to, it gets sent to self
+
 * 
