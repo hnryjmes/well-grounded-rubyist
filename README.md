@@ -180,4 +180,8 @@ Chapter 4 - Modules and program organization (pp. 92 - 117)
 
 * modules and mix-ins
 
+* "To create instances (objects), you need a class, and to make those objects stacklike, you'll need to mix the Stacklike module into that class."
+
+* "... `require` and `load` take strings as their arguments, whereas `include` takes the name of a module in the form of a constant."
+
 * 
