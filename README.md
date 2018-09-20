@@ -247,3 +247,15 @@ Chapter 5 - The default object (self), scope, and visibility (pp. 119 - 151)
 * class variables are class-hierarchy scoped
 
 * method-access rules: public, private, protected
+
+* "A protected method is like a slightly kinder, gentler private method."
+
+* private, but exemption for the case where the class of self and the class of the method call are the same or related by inheritance
+
+* Summary: The rotating role of self (the current or default object) / Self as the receiver for method calls with no explicit receiver / Self as the owner of instance variables / Implications of the "classes are objects too" rule / Variable scope and visibility for local, global, and class variables / The rules for looking up and referencing constants / Ruby's method-access levels (public, private, protected) / Writing and working with top-level method definitions
+
+Chapter 6 - Control-flow techniques (pp. 152 - 187)
+
+* Conditional execution / Loops and looping techniques / Iterators / Exceptions and error handling
+
+* 
