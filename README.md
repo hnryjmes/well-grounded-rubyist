@@ -230,4 +230,20 @@ Chapter 5 - The default object (self), scope, and visibility (pp. 119 - 151)
 
 * If you don't specify which object to send a message to, it gets sent to self
 
-* 
+* scoping: global, local, class etc.
+
+* "Creating your own global variables can be tempting, especially for beginning programmers and people learning a new language (not just Ruby, either). But that's rarely a good or appropriate choice."
+
+* what happens when you have lots of objects? how do global variables perform then?
+
+* "Globally scoped data is fundamentally in conflict with the object-oriented philosophy of endowing objects with abilities and then getting things done by sending requests to those objects."
+
+* the top level, every class or module block, every method - has its own local scope
+
+* a new local scope is created even when a process enters a recursion
+
+* lookup paths, relative and absolute
+
+* class variables are class-hierarchy scoped
+
+* method-access rules: public, private, protected
