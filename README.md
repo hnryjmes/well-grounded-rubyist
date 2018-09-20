@@ -284,4 +284,8 @@ Chapter 6 - Control-flow techniques (pp. 152 - 187)
 
 * begin, rescue
 
+* rescue inside a method or code block: if no begin keyword, assumption that rescue clause applies to the entire method or block
+
+* raising specific exceptions
+
 * 
