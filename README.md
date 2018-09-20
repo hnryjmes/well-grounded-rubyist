@@ -184,4 +184,36 @@ Chapter 4 - Modules and program organization (pp. 92 - 117)
 
 * "... `require` and `load` take strings as their arguments, whereas `include` takes the name of a module in the form of a constant."
 
+* objects don't 'have' methods in as much as they 'have access' to methods
+
+* method lookup: instance method, module mix-ins, superclass, superclass mix-ins etc.
+
+* when two or more modules are mixed in, the most recent version of the method is searched first
+
+* repeating the module more than once doesn't affect this...
+
+```
+class C
+  include M
+  include N
+  include M
+end
+```
+
+* N is considered the most recently included module
+
+* prepend vs include: prepended module methods take priority over class methods
+
+* the super keyword: choosing to execute the named method one level up in the lookup path
+
+* "...class names tend to be nouns, whereas module names are often adjectives (Stack versus Stacklike)"
+
+* while a class can only have one superclass (in Ruby), it can mix in as many modules as it wants
+
+* you can nest a class inside a module
+
+* Summary: Modules, up close and in detail / Similarities and differences between modules and classes (both can bundle methods and constants together, but modules can't be instantiated) / Examples of how you might use modules to express the design of a program / An object's-eye view of the process of finding and executing a method in response to a method, or handling failure with method_missing in cases where the message doesn't match a method / How to nest classes and modules inside each other, with the benefit of keeping namespaces separate and clear
+
+Chapter 5 - The default object (self), scope, and visibility
+
 * 
