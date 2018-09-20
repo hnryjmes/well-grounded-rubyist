@@ -286,6 +286,14 @@ Chapter 6 - Control-flow techniques (pp. 152 - 187)
 
 * rescue inside a method or code block: if no begin keyword, assumption that rescue clause applies to the entire method or block
 
-* raising specific exceptions
+* raising specific exceptions, re-raising an exception
+
+* ensure
+
+* creating your own exception classes inheriting from StandardError
+
+* Summary: Conditionals (if/unless and case/when) / Loops (loop, for, while, and until) / Iterators and code blocks, including block parameters and variables / Examples of implementing Ruby methods in Ruby / Exceptions and exception handling
+
+Chapter 7 - Built-in essentials (pp. 191 - 217)
 
 * 
