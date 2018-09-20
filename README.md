@@ -258,4 +258,24 @@ Chapter 6 - Control-flow techniques (pp. 152 - 187)
 
 * Conditional execution / Loops and looping techniques / Iterators / Exceptions and error handling
 
+* if, else, elsif
+
+* not, !, unless
+
+* putting if statements at the end of a line
+
+* case, when
+
+* you can override the case/when logic if you want special behaviour as it is just a '===' condition in disguise
+
+* if you don't specify anything after the case keyword, it returns at the first true statement in the list of whens
+
+* loop codeblock, loop { }, loop do end
+
+* exiting a loop: break, next
+
+* while, until
+
+* a loop is an iterator
+
 * 
