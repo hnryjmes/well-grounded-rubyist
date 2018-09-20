@@ -298,4 +298,32 @@ Chapter 7 - Built-in essentials (pp. 191 - 217)
 
 * Literal object constructors / Syntactic sugar / "Dangerous" and/or destructive methods / The `to_*` family of conversion methods / Boolean states and objects, and `nil` / Object-comparison techniques / Runtime inspection of objects' capabilities
 
+* literal constructors: making the object through syntax rather than a call using Object.new, e.g. `new_string = "new string"` and not `String.new`
+
+* "If you define a + method for your class, then objects of your class can use the sugared syntax for addition."
+
+* bang methods and danger: `exit` vs `exit!`, `sort` vs `sort!` etc
+
+* bang methods should be made as a pair
+
+* `to_s`, `to_sym`, `to_a`, `to_i`, `to_i`
+
+* the * operator and bare lists: useful for things like turning an array into some arguments
+
+* Ruby doesn't convert things automatically
+
+* booleans and truthiness
+
+* nil and non-objectness
+
+* comparability, inspection
+
+* listing an object's methods with .methods
+
+* you can be more specific: instance_methods, private_methods etc
+
+* Summary: Ruby's literal constructors / Syntactic sugar converting methods into operators / "Destructive" methods and bang methods / Conversion methods (`to_s` and friends) / The `inspect` and `display` methods / Boolean values and Boolean objects / The special object `nil` / Comparing objects and the Comparable module / Examining an object's methods
+
+Chapter 8 - Strings, symbols, and other scalar objects (pp. 219 - 252)
+
 * 
