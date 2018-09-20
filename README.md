@@ -278,4 +278,10 @@ Chapter 6 - Control-flow techniques (pp. 152 - 187)
 
 * a loop is an iterator
 
+* n.times, each, map
+
+* exceptions, errors
+
+* begin, rescue
+
 * 
