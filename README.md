@@ -296,4 +296,6 @@ Chapter 6 - Control-flow techniques (pp. 152 - 187)
 
 Chapter 7 - Built-in essentials (pp. 191 - 217)
 
+* Literal object constructors / Syntactic sugar / "Dangerous" and/or destructive methods / The `to_*` family of conversion methods / Boolean states and objects, and `nil` / Object-comparison techniques / Runtime inspection of objects' capabilities
+
 * 
