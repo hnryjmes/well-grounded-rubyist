@@ -330,4 +330,24 @@ Chapter 8 - Strings, symbols, and other scalar objects (pp. 219 - 252)
 
 * A scalar is a one-dimensional thing
 
-* 
+* escaping characters in strings, percent signs
+
+* ord method on string for ordinal code
+
+* chr method to go from int to char
+
+* equality: equivalent object vs literally the same object
+
+* encoding strings and UTF-8
+
+* symbols, immutabililty, and uniqueness
+
+* Ruby includes all symbols in a table which you can then look up!
+
+* numerics, numeric objects
+
+* ruby date package, time, DateTime
+
+* built-in datetime formatting
+
+* Summary: String creation and manipulation / The workings of symbols / Numerical objects, including floats and integers / Date, time, and date/time objects and how to query and manipulate them
