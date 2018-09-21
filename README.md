@@ -382,10 +382,49 @@ Chapter 9 - Collection and container objects (pp. 254 - 285)
 
 * Summary: How to create, manipulate, and transform collection objects, including Arrays, Hashes, Ranges, Sets / Named arguments
 
-Chapter 10 - Collections central: Enumerable and Enumerator
+Chapter 10 - Collections central: Enumerable and Enumerator (pp. 286 - 328)
 
 * Mixing Enumerable into your classes / The use of Enumerable methods in collection objects / Strings as quasi-enumerable objects / Sorting enumerables with the Comparable module / Enumerators
 
 * collection-related behaviours, the enumerable module
 
 * mixed in enumerable methods
+
+* searching, finding, filtering, select, reject
+
+* find_all
+
+* grep can take a block! meaning it works a bit like enumerable.select and enumerable.map simultaneously
+
+* enumerable classes and the last method
+
+* take and drop methods
+
+* the each family: reverse_each, each_with_index, each_slice, etc
+
+* difference between map and each is what they return!
+
+* be careful...
+
+```
+array = [1,2,3,4,5]
+result = array.map {|n| puts n * 100 }
+```
+
+* what will be the result?
+
+```
+[nil, nil, nil, nil, nil]
+```
+
+* why? the return value of puts is always nil.
+
+* sorting enumerables, the <=> operator, sort_by
+
+* Summary: The `Enumerable` module and its instance methods / Using `Enumerable` in your own classes / Enumerator basics / Creating enumerators / Iterating over strings / Lazy enumerators
+
+* "It’s worth getting to know Enumerable intimately; it’s as powerful a unit of functionality as there is anywhere in Ruby."
+
+Chapter 11 - Regular expressions and regexp-based string operations (pp. 330 - 359)
+
+* 
