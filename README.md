@@ -384,4 +384,8 @@ Chapter 9 - Collection and container objects (pp. 254 - 285)
 
 Chapter 10 - Collections central: Enumerable and Enumerator
 
-* 
+* Mixing Enumerable into your classes / The use of Enumerable methods in collection objects / Strings as quasi-enumerable objects / Sorting enumerables with the Comparable module / Enumerators
+
+* collection-related behaviours, the enumerable module
+
+* mixed in enumerable methods
