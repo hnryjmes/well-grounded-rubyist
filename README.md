@@ -351,3 +351,37 @@ Chapter 8 - Strings, symbols, and other scalar objects (pp. 219 - 252)
 * built-in datetime formatting
 
 * Summary: String creation and manipulation / The workings of symbols / Numerical objects, including floats and integers / Date, time, and date/time objects and how to query and manipulate them
+
+Chapter 9 - Collection and container objects (pp. 254 - 285)
+
+* Sequentially ordered collections with arrays / Keyed collections with hashes / Inclusion and membership tests with ranges / Unique, unordered collections with sets / Named arguments using hash syntax
+
+* collections and containers
+
+* arrays, hashes, range, set
+
+* "An array's job is to store other objects."
+
+* hashes behave similarly to arrays if you use sequential integer indexes
+
+* create arrays in many ways... Array.new, literal, Array() method, special % notation
+
+* shifting and unshifting, concat, push, flatten, uniq
+
+* creating a hash: literal, Hash.new, class method, top-level method
+
+* combining hashes: when two share the same key, the second hash wins
+
+* range (e.g. 1..100), range include
+
+* ruby standard lib: sets
+
+* set methods (for example, set intersection)
+
+* superset, subset
+
+* Summary: How to create, manipulate, and transform collection objects, including Arrays, Hashes, Ranges, Sets / Named arguments
+
+Chapter 10 - Collections central: Enumerable and Enumerator
+
+* 
