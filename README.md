@@ -326,4 +326,8 @@ Chapter 7 - Built-in essentials (pp. 191 - 217)
 
 Chapter 8 - Strings, symbols, and other scalar objects (pp. 219 - 252)
 
+* String object creation and manipulation / Methods for transforming strings / Symbol semantics / String/symbol comparison / Integers and floats / Time and date objects
+
+* A scalar is a one-dimensional thing
+
 * 
