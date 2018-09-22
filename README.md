@@ -435,4 +435,52 @@ Chapter 11 - Regular expressions and regexp-based string operations (pp. 330 - 3
 
 * the match method, the pattern-matching operator =~
 
+* difference is what they return. the former returns an instance of class `MatchData`, the latter returns the numerical index of the first match.
+
+* literal characters, dot wildcard, character classes
+
+* square brackets: either or. `/[dr]ejected/` will match 'dejected' or 'rejected'
+
+* square brackets with a range, e.g. `/[a-z]/`, `/[A-Fa-f0-9]/`
+
+* negation with the `^` caret
+
+* digit `\d`, digit/alphabet/underscore `\w`, whitespace/tab/newline `\s`
+
+* for their negated forms, use uppercase. e.g. for any character that isn't a digit you would use `/\D/`
+
+* "The capture notation allows you to isolate and save substrings of the string that match particular subpatterns."
+
+* ? means zero or one of preceding char
+
+* ruby automatically populates a series of variables giving access to submatches
+
+* "The other technique for getting the parenthetical captures from a `MatchData` object is the `captures` method, which returns all the captured substrings in a single array."
+
+* what about the ordering? count opening parentheses from the left
+
+* named captures with <>
+
+* more quantifiers: zero or more (`*`), one or more (`+`)
+
+* greedy and non-greedy matching
+
+* anchors, word boundary
+
+* conditional matches
+
+* modifiers
+
+* "Going from regular expressions to strings is useful primarily when you're studying and/or troubleshooting regular expressions. It's a good way to make sure your regular expressions are what you think they are."
+
+* common uses: scanning arrays, strings, `StringScanner` class
+
+* sub and gsub, grep
+
+* you can use the backslash notation (`\1 \2` etc) to refer to matches in replacement strings
+
+* Summary: The underlying principles behind regular expression pattern matching / The `match` and =~ techniques / Character classes / Parenthetical captures / Quantifiers / Anchors / `MatchData` objects / String/regexp interpolation and conversion / Ruby methods that use regexps: `scan`, `split`, `grep`, `sub`, `gsub`
+
+Chapter 12 - File and I/O operations (pp. 360 - 384)
+
 * 
