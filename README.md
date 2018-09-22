@@ -427,4 +427,12 @@ result = array.map {|n| puts n * 100 }
 
 Chapter 11 - Regular expressions and regexp-based string operations (pp. 330 - 359)
 
+* Regular expression syntax / Pattern-matching operations / The `MatchData` class / Built-in methods based on pattern matching
+
+* "Regular expressions in Ruby are objects. You send messages to a regular expression."
+
+* "For every such pattern, every string in the world either matches the pattern or doesn't match it."
+
+* the match method, the pattern-matching operator =~
+
 * 
