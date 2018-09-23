@@ -485,4 +485,28 @@ Chapter 12 - File and I/O operations (pp. 360 - 384)
 
 * Keyboard input and screen output / The `IO` and `File` classes / Standard library file facilities, including `FileUtils` and `Pathname` / The `StringIO` and `open-uri` library features
 
+* "The `IO` class handles all input and output streams either by itself or via its descendant classes, particularly `File`. To a large extent, `IO`'s API consists of wrappers around system library calls, with some enhancements and modifications.
+
+* STDIN, STDOUT, STDERR
+
+* file reading and writing with code blocks
+
+* if you use an older Ruby way to access a file, you must remember to close the file after (i.e. using File.new instead of File.open with a code block)
+
+* gets and getc (get string and get char)
+
+* File.read, File.readlines (one outputs a string, one outputs an array of strings)
+
+* files are enumerables, which means they support the each method
+
+* checking whether a file exists with `FileTest`, the `entries` method and the `glob` technique
+
+* `FileUtils`, `Pathname`
+
+* Summary: I/O (keyboard and screen) and file operations in Ruby / File objects as enumerables / The `STDIN`, `STDOUT`, and `STDERR` objects / The `FileUtils` module, The `Pathname` module / The `StringIO` class / The `open-uri` module
+
+Chapter 13 - Object individuation (pp. 389 - 416)
+
+* Singleton methods and classes / Class methods / The `extend` method / Overriding Ruby core behavior / The `BasicObject` class
+
 * 
