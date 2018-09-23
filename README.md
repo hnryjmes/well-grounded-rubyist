@@ -483,4 +483,6 @@ Chapter 11 - Regular expressions and regexp-based string operations (pp. 330 - 3
 
 Chapter 12 - File and I/O operations (pp. 360 - 384)
 
+* Keyboard input and screen output / The `IO` and `File` classes / Standard library file facilities, including `FileUtils` and `Pathname` / The `StringIO` and `open-uri` library features
+
 * 
