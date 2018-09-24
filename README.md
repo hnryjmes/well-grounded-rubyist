@@ -527,4 +527,12 @@ Chapter 14 - Callable and runnable objects (pp. 418 - 454)
 
 * procs: wrapping a code block in an object
 
+* "Conversion between blocks and procs is easy - which isn't too surprising, because the purpose of a code block is to be executed, and a proc is an object whose job is to provide execution access to a previously defined code block."
+
+* creation context and closures
+
+* an object returned from lambda is of class Proc, i.e. a lambda can be thought of as a lambda-flavoured proc
+
+* lambdas differ from procs in how they handle the return keyword
+
 * 
