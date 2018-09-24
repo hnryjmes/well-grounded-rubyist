@@ -535,4 +535,22 @@ Chapter 14 - Callable and runnable objects (pp. 418 - 454)
 
 * lambdas differ from procs in how they handle the return keyword
 
+* other ways to call a Proc: square brackets, dot + parentheses
+
+* eval and arbitrary code execution, dangers
+
+* using threads and fibers: useful for timeouts, uncertain file operations, network stuff
+
+* date server and chat server
+
+* thread keys
+
+* system calls
+
+* Summary: `Proc` objects / The `lambda` "flavor" of process / Code block-to-proc (and reverse) conversion / `Symbol#to_proc` / Method objects / Bindings / `eval`, `instance_eval`, and `class_eval` / Thread usage and manipulation / Thread-local "global" variables / The `system` method / Calling system commands with backticks / The basics of the `open` and `Open.popen3` facilities
+
+Chapter 15 - Callbacks, hooks, and runtime introspection (pp. 456 - 485)
+
+* Runtime callbacks: `inherited`, `included`, and more / The `respond_to?` and `method_missing` methods / Introspection of object and class method lists / Trapping unresolved constant references / Examining in-scope variables and constants / Parsing caller and stack trace information
+
 * 
