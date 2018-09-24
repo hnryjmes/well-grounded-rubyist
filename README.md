@@ -509,4 +509,6 @@ Chapter 13 - Object individuation (pp. 389 - 416)
 
 * Singleton methods and classes / Class methods / The `extend` method / Overriding Ruby core behavior / The `BasicObject` class
 
+* how does Ruby allow objects to acquire methods and behaviours on a per-object basis?
+
 * 
