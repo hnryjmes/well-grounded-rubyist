@@ -553,4 +553,16 @@ Chapter 15 - Callbacks, hooks, and runtime introspection (pp. 456 - 485)
 
 * Runtime callbacks: `inherited`, `included`, and more / The `respond_to?` and `method_missing` methods / Introspection of object and class method lists / Trapping unresolved constant references / Examining in-scope variables and constants / Parsing caller and stack trace information
 
+* callbacks, hooks, meta-programming
+
+* `included` and `extended` callbacks
+
+* "You can hook into the subclassing of a class by defining a special class method called inherited for that class."
+
+* listing and accessing methods
+
+* introspection of methods, variables
+
+* tracing execution
+
 * 
