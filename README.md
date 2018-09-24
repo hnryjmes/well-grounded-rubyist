@@ -520,3 +520,11 @@ Chapter 13 - Object individuation (pp. 389 - 416)
 Chapter 14 - Callable and runnable objects (pp. 418 - 454)
 
 * `Proc` objects as anonymous functions / The `lambda` method for generating functions / Code blocks / The `Symbol#to_proc` method / Method objects / Bindings / The `eval` family of methods / Threads / Executing external programs
+
+* "This chapter is about objects that you can call, execute, or run: threads, anonymous functions, strings, and even methods that have been turned into objects."
+
+* procs and lambdas
+
+* procs: wrapping a code block in an object
+
+* 
