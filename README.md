@@ -511,4 +511,4 @@ Chapter 13 - Object individuation (pp. 389 - 416)
 
 * how does Ruby allow objects to acquire methods and behaviours on a per-object basis?
 
-* 
+* "The ability to define behavior on a per-object basis is one of the hallmarks of Ruby's design."
