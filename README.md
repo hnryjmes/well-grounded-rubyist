@@ -565,4 +565,8 @@ Chapter 15 - Callbacks, hooks, and runtime introspection (pp. 456 - 485)
 
 * tracing execution
 
-* 
+* the `CallerTools` module
+
+* `MicroTest`
+
+* Summary: Intercepting methods with `method_missing` / Runtime hooks and callbacks for objects, classes, and modules / Querying objects about their methods, on various criteria / Trapping references to unknown constants / Stack traces / Writing the MicroTest framework
