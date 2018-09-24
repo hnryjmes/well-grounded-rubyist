@@ -512,3 +512,11 @@ Chapter 13 - Object individuation (pp. 389 - 416)
 * how does Ruby allow objects to acquire methods and behaviours on a per-object basis?
 
 * "The ability to define behavior on a per-object basis is one of the hallmarks of Ruby's design."
+
+* pass-through methods: calling an old and new version of a method simultaneously (e.g. one outputs to STDERR and the other to STDOUT) - could be useful for debugging
+
+* Summary: Singleton classes and how to add methods and constants to them / Class methods / The `extend` method / Several approaches to changing Ruby's core behavior / `BasicObject` and how to leverage it
+
+Chapter 14 - Callable and runnable objects (pp. 418 - 454)
+
+* `Proc` objects as anonymous functions / The `lambda` method for generating functions / Code blocks / The `Symbol#to_proc` method / Method objects / Bindings / The `eval` family of methods / Threads / Executing external programs
